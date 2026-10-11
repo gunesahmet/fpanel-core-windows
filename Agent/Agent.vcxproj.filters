@@ -1,0 +1,145 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Config">
+      <UniqueIdentifier>{0ad9d8bb-2dc6-42b8-b0af-7f5401263f83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Crypto">
+      <UniqueIdentifier>{81525d73-0397-4f0c-b165-d24b901b4f3c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Helpers">
+      <UniqueIdentifier>{e0f74410-17f0-49b0-a70d-72c89c3da1c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Logger">
+      <UniqueIdentifier>{e6e1474a-2e44-4f3b-9267-b9afc26e41b8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Rapidjson">
+      <UniqueIdentifier>{9a7a58d7-0b41-462a-872c-70dee8612daa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Socket">
+      <UniqueIdentifier>{52d6801e-0849-4e7f-9fb8-b159fdf2194d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Commands">
+      <UniqueIdentifier>{f371f0ad-1a31-45d7-8a64-e42102599c86}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\SysInfo">
+      <UniqueIdentifier>{b280a9ab-8df3-478d-8263-971b61086da6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Agent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SysInfo\SystemInfo.cpp">
+      <Filter>Header Files\SysInfo</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="app.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="app.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Config\Config.h">
+      <Filter>Header Files\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="Crypto\Crypto.h">
+      <Filter>Header Files\Crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="Helpers\Helpers.h">
+      <Filter>Header Files\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="Logger\Logger.h">
+      <Filter>Header Files\Logger</Filter>
+    </ClInclude>
+    <ClInclude Include="Commands\Commands.h">
+      <Filter>Header Files\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="Socket\TcpClient.h">
+      <Filter>Header Files\Socket</Filter>
+    </ClInclude>
+    <ClInclude Include="Socket\TcpServer.h">
+      <Filter>Header Files\Socket</Filter>
+    </ClInclude>
+    <ClInclude Include="Rapidjson\allocators.h">
+      <Filter>Header Files\Rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="Rapidjson\document.h">
+      <Filter>Header Files\Rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="Rapidjson\encodedstream.h">
+      <Filter>Header Files\Rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="Rapidjson\encodings.h">
+      <Filter>Header Files\Rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="Rapidjson\filereadstream.h">
+      <Filter>Header Files\Rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="Rapidjson\filewritestream.h">
+      <Filter>Header Files\Rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="Rapidjson\fwd.h">
+      <Filter>Header Files\Rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="Rapidjson\istreamwrapper.h">
+      <Filter>Header Files\Rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="Rapidjson\memorybuffer.h">
+      <Filter>Header Files\Rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="Rapidjson\memorystream.h">
+      <Filter>Header Files\Rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="Rapidjson\ostreamwrapper.h">
+      <Filter>Header Files\Rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="Rapidjson\pointer.h">
+      <Filter>Header Files\Rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="Rapidjson\prettywriter.h">
+      <Filter>Header Files\Rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="Rapidjson\rapidjson.h">
+      <Filter>Header Files\Rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="Rapidjson\reader.h">
+      <Filter>Header Files\Rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="Rapidjson\schema.h">
+      <Filter>Header Files\Rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="Rapidjson\stream.h">
+      <Filter>Header Files\Rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="Rapidjson\stringbuffer.h">
+      <Filter>Header Files\Rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="Rapidjson\writer.h">
+      <Filter>Header Files\Rapidjson</Filter>
+    </ClInclude>
+    <ClInclude Include="SysInfo\SystemInfo.h">
+      <Filter>Header Files\SysInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="Socket\FileServer.h">
+      <Filter>Header Files\Socket</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

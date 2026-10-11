@@ -1,0 +1,79 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Crontab">
+      <UniqueIdentifier>{8d538f75-7984-4edc-9b39-b96ca94216a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Ini">
+      <UniqueIdentifier>{d57c7176-894b-4d39-95ed-e1caf7c4b6ce}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Crypto">
+      <UniqueIdentifier>{da72ea81-660f-4969-8d37-0b3f440186d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Helpers">
+      <UniqueIdentifier>{abdf7eb0-e25b-4644-bb04-8bdcbed0f95c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Logger">
+      <UniqueIdentifier>{4838643e-2e97-42f5-9f24-8db94fe2048c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Ini\ini.c">
+      <Filter>Header Files\Ini</Filter>
+    </ClCompile>
+    <ClCompile Include="Ini\inireader.cpp">
+      <Filter>Header Files\Ini</Filter>
+    </ClCompile>
+    <ClCompile Include="Helpers\md5.cpp">
+      <Filter>Header Files\Helpers</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Crontab.h">
+      <Filter>Header Files\Crontab</Filter>
+    </ClInclude>
+    <ClInclude Include="Ini\ini.h">
+      <Filter>Header Files\Ini</Filter>
+    </ClInclude>
+    <ClInclude Include="Ini\inireader.h">
+      <Filter>Header Files\Ini</Filter>
+    </ClInclude>
+    <ClInclude Include="Crypto\Crypto.h">
+      <Filter>Header Files\Crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="Helpers\Helpers.h">
+      <Filter>Header Files\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="Helpers\md5.h">
+      <Filter>Header Files\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="Logger\Logger.h">
+      <Filter>Header Files\Logger</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="app.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="app.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

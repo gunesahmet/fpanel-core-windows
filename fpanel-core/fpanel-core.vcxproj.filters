@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Socket">
+      <UniqueIdentifier>{229c016a-9781-482b-a4ec-b858ce489f2c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Commands">
+      <UniqueIdentifier>{1cd96a1f-5711-4506-801d-ac5828d7bea7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Config">
+      <UniqueIdentifier>{09ca11e0-2a79-4867-9fa2-a008c5000c1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Crypto">
+      <UniqueIdentifier>{093c78bd-fc20-4539-b6da-151bd3f54353}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Helpers">
+      <UniqueIdentifier>{1ca5756f-4a1a-4fc7-b6dc-7761a5360843}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Logger">
+      <UniqueIdentifier>{5b691ccc-d817-4332-87f4-fc71e07d4e14}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Maps">
+      <UniqueIdentifier>{135846e0-f01f-4e97-89f8-bed81232bf6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Ini">
+      <UniqueIdentifier>{265c2569-6fb5-4e2f-97c0-ad514833e909}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Libguarded">
+      <UniqueIdentifier>{6c1d09fe-0070-441d-9854-fb8e9f5bf05d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Socket\TcpServer.h">
+      <Filter>Header Files\Socket</Filter>
+    </ClInclude>
+    <ClInclude Include="Commands\Commands.h">
+      <Filter>Header Files\Commands</Filter>
+    </ClInclude>
+    <ClInclude Include="Config\Config.h">
+      <Filter>Header Files\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="Crypto\Crypto.h">
+      <Filter>Header Files\Crypto</Filter>
+    </ClInclude>
+    <ClInclude Include="Helpers\Helpers.h">
+      <Filter>Header Files\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="Helpers\md5.h">
+      <Filter>Header Files\Helpers</Filter>
+    </ClInclude>
+    <ClInclude Include="Logger\Logger.h">
+      <Filter>Header Files\Logger</Filter>
+    </ClInclude>
+    <ClInclude Include="Maps\Domains.h">
+      <Filter>Header Files\Maps</Filter>
+    </ClInclude>
+    <ClInclude Include="Maps\Jobs.h">
+      <Filter>Header Files\Maps</Filter>
+    </ClInclude>
+    <ClInclude Include="Maps\Licence.h">
+      <Filter>Header Files\Maps</Filter>
+    </ClInclude>
+    <ClInclude Include="Maps\LicenceRequests.h">
+      <Filter>Header Files\Maps</Filter>
+    </ClInclude>
+    <ClInclude Include="Ini\ini.h">
+      <Filter>Header Files\Ini</Filter>
+    </ClInclude>
+    <ClInclude Include="Ini\inireader.h">
+      <Filter>Header Files\Ini</Filter>
+    </ClInclude>
+    <ClInclude Include="Libguarded\cs_cow_guarded.h">
+      <Filter>Header Files\Libguarded</Filter>
+    </ClInclude>
+    <ClInclude Include="Libguarded\cs_deferred_guarded.h">
+      <Filter>Header Files\Libguarded</Filter>
+    </ClInclude>
+    <ClInclude Include="Libguarded\cs_lr_guarded.h">
+      <Filter>Header Files\Libguarded</Filter>
+    </ClInclude>
+    <ClInclude Include="Libguarded\cs_ordered_guarded.h">
+      <Filter>Header Files\Libguarded</Filter>
+    </ClInclude>
+    <ClInclude Include="Libguarded\cs_plain_guarded.h">
+      <Filter>Header Files\Libguarded</Filter>
+    </ClInclude>
+    <ClInclude Include="Libguarded\cs_rcu_guarded.h">
+      <Filter>Header Files\Libguarded</Filter>
+    </ClInclude>
+    <ClInclude Include="Libguarded\cs_rcu_list.h">
+      <Filter>Header Files\Libguarded</Filter>
+    </ClInclude>
+    <ClInclude Include="Libguarded\cs_shared_guarded.h">
+      <Filter>Header Files\Libguarded</Filter>
+    </ClInclude>
+    <ClInclude Include="Socket\TcpClient.h">
+      <Filter>Header Files\Socket</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Helpers\md5.cpp">
+      <Filter>Header Files\Helpers</Filter>
+    </ClCompile>
+    <ClCompile Include="Ini\ini.c">
+      <Filter>Header Files\Ini</Filter>
+    </ClCompile>
+    <ClCompile Include="Ini\inireader.cpp">
+      <Filter>Header Files\Ini</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Libguarded\cs_libguarded.cmake">
+      <Filter>Header Files\Libguarded</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="app.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="app.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
